@@ -1,0 +1,10 @@
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" version="2.1"> 
+    <persistence-unit name="hospital">
+        <class>hospital_odb.Patient</class>
+        <class>hospital_odb.Doctor</class>
+        <class>hospital_odb.Appointment</class>
+        <properties>
+            <property name="javax.persistence.jdbc.url" value="C:\Users\asus\Desktop\test_ide\hospital\src\hospital.odb" />
+        </properties>
+    </persistence-unit>
+</persistence>
